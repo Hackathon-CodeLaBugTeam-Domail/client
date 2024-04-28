@@ -1,0 +1,37 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true
+  },
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    "pages/login.js",
+    "pages/index.js",
+    "pages/_app.js",
+    "components/header.js",
+    "pages/_document.js",
+    "components/sendMail.js",
+    "components/sidebar.js",
+    "pages/mail.js",
+    "components/feed.js",
+    "components/email.js",
+    "components/individualMail.js",
+    "components/layout.js",
+    "components/sidebarOption.js"
+  ],
+  "exclude": ["node_modules"]
+}
